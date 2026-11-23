@@ -1,0 +1,9 @@
+[package]
+name = "battery-protocol"
+version = "0.1.0"
+edition = "2024"
+description = "Open replacement for the private mouse-battery-core crate (fork-local)."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+hidapi ={ version = "2.6", default-features = false, features = ["windows-native"] }

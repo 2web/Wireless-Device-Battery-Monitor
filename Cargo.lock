@@ -466,9 +466,6 @@ version = "0.1.0"
 dependencies = [
  "hidapi",
  "serde",
- "windows",
- "windows-collections",
- "windows-future",
 ]
 
 [[package]]

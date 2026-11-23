@@ -136,6 +136,7 @@ fn retains_last_peripheral_sample(source: Source) -> bool {
             | Source::HyperX
             | Source::TurtleBeach
             | Source::Scyrox
+            | Source::Sinowealth
     )
 }
 impl Slot {
